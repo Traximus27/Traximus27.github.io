@@ -14,14 +14,7 @@
 {% seo %}
 
   {% include head-custom.html %}
-	   <nav>
-        		<a href="/">Home</a>
-	        	<a href="/Reading">Reading</a>
-        		<a href="/Arduino">Arduino Project</a>
-           	        <a href="/Python">Python Project</a>
-        		<a href="/blog">Blog</a>
-    		
-   </nav>
+	
 </head>
 
 <body>
@@ -29,10 +22,17 @@
 
   <div class="wrapper">
     <header>
-      <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="title"></h1>
     </header>
     <div id="container">
-	  
+	  	   <nav>
+        		<a href="/">Home</a>
+	        	<a href="/Reading">Reading</a>
+        		<a href="/Arduino">Arduino Project</a>
+           	        <a href="/Python">Python Project</a>
+        		<a href="/blog">Blog</a>
+    		
+                   </nav>
       <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
       <div id="main" role="main">
         <div class="download-bar">
