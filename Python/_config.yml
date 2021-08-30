@@ -1,0 +1,5 @@
+# in _config.yml
+title: "My System"
+# logo: images/logo-wide.svg
+execute:
+  execute_notebooks: "off"
