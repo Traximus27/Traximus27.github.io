@@ -1,16 +1,15 @@
-# Welcome to your Jupyter Book
+# Control Theory Book
 
 This is a small sample book to give you a feel for how book content is
 structured.
 
 :::{note}
-Here is a note!
+Keep it mind: Learn always something new and with fun ! This is the most important
 :::
 
 And here is a code block:
 
 ```
-e = mc^2
+T dy(t)/dt + y(t) = u(t)
 ```
 
-Check out the content pages bundled with this sample book to see more.
